@@ -1,4 +1,0 @@
-javathread 是黑马还有常见的创建线程的四种方式
-Thread 是学习韩顺平的java多线程
-
-控制台可以使用jconsole监控线程的执行情况
