@@ -1,6 +1,6 @@
 package com.fzn2021.day11.houserent.service;
 
-import com.fzn.day11.houserent.doman.House;
+import com.fzn2021.day11.houserent.doman.House;
 
 /**
  * @program: JavaSE

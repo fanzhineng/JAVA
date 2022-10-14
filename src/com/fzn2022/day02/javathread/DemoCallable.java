@@ -1,4 +1,4 @@
-package com.fzn2022.javathread;
+package com.fzn2022.day02.javathread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

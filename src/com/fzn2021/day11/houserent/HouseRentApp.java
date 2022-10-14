@@ -1,6 +1,6 @@
 package com.fzn2021.day11.houserent;
 
-import com.fzn.day11.houserent.view.HouseView;
+import com.fzn2021.day11.houserent.view.HouseView;
 
 /**
  * @program: JavaSE

@@ -1,8 +1,8 @@
 package com.fzn2021.day11.houserent.view;
 
-import com.fzn.day11.houserent.doman.House;
-import com.fzn.day11.houserent.service.HouseService;
-import com.fzn.day11.houserent.utils.Utility;
+import com.fzn2021.day11.houserent.doman.House;
+import com.fzn2021.day11.houserent.service.HouseService;
+import com.fzn2021.day11.houserent.utils.Utility;
 
 
 /**

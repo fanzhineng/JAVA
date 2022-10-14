@@ -1,4 +1,4 @@
-package com.fzn2022.javathread.WaitAndNotify;
+package com.fzn2022.day02.javathread.WaitAndNotify;
 
 /**
  * @program: JavaSe1010

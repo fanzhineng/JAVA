@@ -1,4 +1,4 @@
-package com.fzn2022.javathread.selltickets;
+package com.fzn2022.day02.javathread.selltickets;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
