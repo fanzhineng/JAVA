@@ -11,6 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author: fzn
  * @create: 2022-10-15 23:09
  **/
+@SuppressWarnings({"all"})
 public class ConcurrentHashMap_ {
     public static void main(String[] args) {
         ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
