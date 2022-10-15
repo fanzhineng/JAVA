@@ -1,4 +1,4 @@
-package com.fzn2022.day03.set_;
+package com.fzn2022.day03.set_.hashset_;
 
 import java.util.HashSet;
 
