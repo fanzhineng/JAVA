@@ -105,19 +105,19 @@ public class HashSetSource {
                         }
                         if (e != null) { // existing mapping for key
                             V oldValue = e.value;
-                        if (!onlyIfAbsent || oldValue == null)
-                            e.value = value;
-                        afterNodeAccess(e); // 给子类继承 从写排序啥的 空方法
+                            if (!onlyIfAbsent || oldValue == null)
+                                e.value = value;
+                            afterNodeAccess(e); // 给子类继承 从写排序啥的 空方法
                         return oldValue;
+                        }
                     }
+                    ++modCount;
+                    //size 就是我们每加入一个结点 Node(k,v,h,next), size++
+                    if (++size > threshold)
+                        resize();//扩容
+                    afterNodeInsertion(evict);
+                    return null;
                 }
-                ++modCount;
-                //size 就是我们每加入一个结点 Node(k,v,h,next), size++
-                if (++size > threshold)
-                    resize();//扩容
-                afterNodeInsertion(evict);
-                return null;
-            }
          */
     }
 }
